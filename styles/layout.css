@@ -1,0 +1,29 @@
+#main {
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 1300px;
+}
+
+
+#fishList {
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+#tipList {
+    max-width: 400px;
+    max-height: 750px;
+    background-color: #0b0044;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#locationList{
+    align-content: center;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    max-width: 900px;
+    background-color: #0b0044;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
